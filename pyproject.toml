@@ -1,0 +1,15 @@
+[project]
+name = "t1-trabalho-conclusao"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.9",
+    "networkx>=3.4.2",
+    "pandas>=2.3.3",
+    "pyarrow>=24.0.0",
+    "pyvis>=0.3.2",
+    "requests>=2.34.2",
+]
