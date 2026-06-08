@@ -3,22 +3,27 @@ APÊNDICE A: Requisitos do Sistema e Versões de Dependências
 =====================================================================
 
 1. AMBIENTE DE EXECUÇÃO PYTHON
-  - Versão Base do Python: 3.10.12
+  - Versão Base do Python: 3.10.20
   - Compilador do Sistema:
-    3.10.12 (main, Mar  3 2026, 11:56:32) [GCC 11.4.0]
+    3.10.20 (main, May 10 2026, 19:31:32) [MSC v.1944 64 bit (AMD64)]
+  - Sistema operacional detectado: Windows
+  - Plataforma: Windows-10-10.0.22621-SP0
 
 Bibliotecas Python Importadas e Ativas no Trabalho:
-  - matplotlib: 3.10.9
   - numpy: 2.2.6
   - pandas: 2.3.3
-  - nbconvert: 7.17.1
   - networkx: 3.4.2
   - plotly: 6.7.0
+  - matplotlib: 3.10.9
+  - nbconvert: 7.17.1
 
 2. DEPENDÊNCIAS DO SISTEMA OPERACIONAL (LATEX)
-  - Motor TeX: XeTeX 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian)
-  - Pacotes TeX Live localizados no sistema:
-    * texlive-base (Versão: 2021.20220204-1)
-    * texlive-latex-base (Versão: 2021.20220204-1)
-    * texlive-latex-extra (Versão: 2021.20220204-1)
-    * texlive-xetex (Versão: 2021.20220204-1)
+
+2.1 Ambiente atual do kernel
+  - Motor TeX local: xelatex não localizado no ambiente atual
+  - dpkg não disponível no ambiente atual; etapa ignorada
+
+2.2 Ambiente WSL detectável a partir do Windows
+  - wsl.exe localizado no Windows
+  - Motor TeX no WSL: xelatex não localizado
+  - Não foi possível listar pacotes TeX Live no WSL via dpkg
